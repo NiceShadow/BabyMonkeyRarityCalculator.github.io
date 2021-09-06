@@ -1,0 +1,170 @@
+body {
+		margin: 0;
+		padding: 0;
+		height: 100%;
+		font-family: 'Arial';
+		background-size: cover;
+		background-color: #333;
+		color: #eee;
+		grid-template-columns: 300px auto;
+		grid-template-rows: 200px auto 200px;
+		
+}
+
+::-webkit-scrollbar {
+		display: none;
+}
+
+.banner2 {
+		padding-top: 0em;
+		display: block;
+		width: 100%;
+		background-color: #222;
+		height: 12em;
+		background-image: url("images/bg.png");
+		background-size: 100%;
+		user-select: none;
+}
+
+input[readonly]
+{
+    background-color: transparent;
+	outline: none;
+	cursor: inherit;
+	border: none;
+	font-size: 40px;
+	font-family: 'Roboto';
+	text-align: center;
+	color: white;
+	width: 250px;
+	transform: translate(0, 0);
+}
+
+.box3{
+	width: 250px;
+	height: 100px;
+	background-color: transparent;
+	box-sizing: border-box;
+	margin: 10px;
+	text-align: center;
+}
+
+.bannerText {
+		padding-top: 50px;
+		color: white;
+		display: grid;
+		place-items: center;
+		justify-content: center;
+		font-size: 4em;
+		font-family: 'Roboto';
+		font-weight: 10;
+		text-align: center;
+}
+
+.homeBorder {
+	width: 100%;
+	background-color: #222;
+	display: grid;
+	place-items: center;
+	justify-content: center;
+	padding: 1rem;
+	color: rgba(255, 255, 255, 0.4);
+	font-size: 2em;
+}
+
+.container2{
+	width: 100%;
+	height: auto;
+	display: flex;
+	flex-direction: row;
+	flex-content: space-around;
+	flex-flow: wrap;
+	justify-content: center;
+}
+
+.box2{
+	width: 240px;
+	height: 120px;
+	background: #4d4d4d;
+	margin: 20px;
+	box-sizing: border-box;
+
+	transition: .15s ease;
+	font-size: 2em;
+	color: rgba(255, 255, 255, 0.4);
+	  padding: 15px;
+	    border-radius: 15px;
+}
+
+.box2:hover {
+	background: #5d5d5d;
+	 transition: .15s ease;
+
+}
+
+.centerBox {
+	width: 100%;
+	background-color: transparent;
+	display: grid;
+	place-items: center;
+	justify-content: center;
+	padding: 1rem;
+	color: rgba(255, 255, 255, 0.4);
+	font-size: 2em;
+}
+
+
+
+
+select {
+  /* ... */
+  width: 100%;
+  height: 40px;
+  -moz-padding-start: calc(10px - 3px);
+  padding-left: 10px;
+  background: url(fff-0-2.png) repeat;
+    background-color: rgba(0,0,0,0.1);
+  color: #fff;
+  font-size: 16px;
+    box-shadow: 2px 2px 5px 1px rgba(0,0,0,0.3);
+  border-radius: 3px;
+    outline: none;
+	cursor: pointer;
+}
+
+select:focus::-ms-value {
+  background-color: transparent;
+  cursor: pointer;
+}
+
+select option {
+  color: #666;
+  cursor: pointer;
+}
+
+
+
+
+
+.button {
+  display: inline-block;
+  padding: 15px 25px;
+  font-size: 24px;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  outline: none;
+  color: #fff;
+  background-color: #514178;
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0 9px #999;
+}
+
+.button:hover {background-color: #604f8c}
+
+.button:active {
+  background-color: #604f8c;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
